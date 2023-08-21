@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+    padding: 40px;
+}
+
+.box {
+
+    height: 70vh;
+    border: 40px solid rgba(97, 173, 87, 0.534);
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(130deg, rgb(252, 20, 175),rgb(24, 250, 4)),url(./img/flame-princess-face.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* background-clip: content-box; */
+background-blend-mode: color;
+}
+
