@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: pink;
+}
+
+.elem {
+
+    /* height: 300px;
+    width: 300px;
+    background-color: #5c9268;
+    border: 12px solid gray; */
+
+    width: 400px;
+    height: 400px;
+    background-color: #b88be2;
+    border-radius: 20px / 300px;
+    border: 5px solid #2e0553;
+}
