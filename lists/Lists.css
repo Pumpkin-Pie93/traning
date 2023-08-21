@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+        margin: 0;
+
+  
+}
+
+    ul {
+        list-style-type: square;
+        list-style-image: linear-gradient(130deg, rgb(189, 170, 170), rgb(183, 252, 54));
+        list-style-position: inside;
+        /* width: 400px; */
+    }
+
+    /* ol li::marker {
+        color: blueviolet;
+        content: counter(example);
+    } */
+
+    ol {
+        counter-reset: example 0;
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+
+    li {
+        counter-increment: example 2;
+        width: 350px;
+        background-color: #b3b3b3;
+        color: blanchedalmond;
+        padding: 20px;
+        position: relative;
+    }
+
+    li::after {
+        content: counter(example);
+        color: rgba(222, 231, 231, 0.486);
+        font-size: 6rem;
+        position: absolute;
+        right: 10px;
+        top: -20px;
+    }
+
+
+    p {
+
+        font-size: 16px;
+    }

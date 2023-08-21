@@ -1,0 +1,22 @@
+html {
+    font-size: 40px;
+}
+
+body {
+
+font-size: 10px;      
+}
+
+
+.square {
+    background-color: rgb(211, 178, 178);
+    width: 60%;
+    height: 10rem;
+   
+
+}
+
+.section {
+    height: 20rem;
+ font-size: 10px;
+}
