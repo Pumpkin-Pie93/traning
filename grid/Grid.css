@@ -15,11 +15,16 @@ body {
 }
 
 .grid-container {
-
+    height: 100vh;
     display: grid;
-    grid-template-columns: repeat(4, 265px);
-    grid-template-rows: 200px 200px 200px;
+grid-auto-rows: minmax(200px, auto);
+grid-template-columns: repeat(4, 265px);
     gap: 25px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
     /* grid-template-areas: 
 "one two three four"
 "five five six eight"
@@ -27,8 +32,10 @@ body {
 }
 
 .grid-item:nth-child(5) {
-    grid-column: 1/3;
-    grid-row: 2/4;
+    /* grid-column: 1/3;
+    grid-row: 2/4; */
+
+    grid-area: 2/1/4/3;
 }
 
 .grid-item:last-child {
